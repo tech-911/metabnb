@@ -8,8 +8,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  .home-logo {
-  }
+
   .nav-option-center {
     @media screen and (max-width: 950px) {
       display: none;
@@ -106,7 +105,7 @@
     }
   }
   .popup {
-    position: absolute;
+    position: fixed;
     top: 0px;
     right: 0px;
     width: 100vw;
